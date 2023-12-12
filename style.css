@@ -1,0 +1,73 @@
+
+body{
+	background-color: #0000ff24;
+	font-family: Arial, sans-serif;
+}
+
+.profile {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.profile:hover{
+  box-shadow: 0 10px 14px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.profile-info label {
+  font-weight: bold;
+}
+
+.enrolled-courses {
+  margin: 50px auto;
+  max-width: 50%;
+}
+
+.enrolled-courses h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.enrolled-courses ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.enrolled-courses li {
+  padding: 8px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.enrolled-courses p {
+  font-style: italic;
+  color: #777;
+}
+
+.course-unenrollment {
+  text-align: center;
+}
+
+.course-unenrollment h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
