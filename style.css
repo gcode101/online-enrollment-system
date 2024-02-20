@@ -138,6 +138,22 @@ h2 {
   }
 }
 
+@media (max-width: 393px){
+  .profile{
+    max-width: 370px;
+    padding: 25px;
+  }
+
+  .enrolled-courses{
+    margin: 50px;
+    max-width: 370px;
+  }
+
+  #course{
+    max-width: 370px;
+  }
+}
+
 /*---------------- Profile Page ----------------------------*/
 
 /*---------------- Signup Page ----------------------------*/
